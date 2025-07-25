@@ -2,9 +2,9 @@
 export default function Home() {
   return (
       <p>
-        <a href="/throw-not-found">Throw 404 page</a><br/>
-        <a href="/throw-redirect">Throw Redirect page</a><br />
-        <a href="/throw-misc-error">Throw Misc Error page</a>
+        <a href="/throw-not-found">Throw notFound() page</a><br/>
+        <a href="/throw-redirect">Throw redirect() page</a><br />
+        <a href="/throw-misc-error">Throw misc Error page</a>
       </p>
   )
 }
