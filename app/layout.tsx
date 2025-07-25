@@ -5,7 +5,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+          <body>
+            <div style={{backgroundColor: 'lightgray'}}>Menu bar</div>
+            {children}
+          </body>
     </html>
   );
 }
